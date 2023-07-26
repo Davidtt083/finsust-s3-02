@@ -43,19 +43,19 @@ jQuery(window).resize(function () {
 function mostrarp(divNum, btns, lot) {
 	document.getElementById("text1").classList.add("hide");
 	document.getElementById("text2").classList.add("hide");
-	document.getElementById("text3").classList.add("hide");
-	document.getElementById("text4").classList.add("hide");
+	/*document.getElementById("text3").classList.add("hide");
+	document.getElementById("text4").classList.add("hide");*/
 
 	document.getElementById("lot1").classList.add("hide");
 	document.getElementById("lot2").classList.add("hide");
-	document.getElementById("lot3").classList.add("hide");
-	document.getElementById("lot4").classList.add("hide");
+	/*document.getElementById("lot3").classList.add("hide");
+	document.getElementById("lot4").classList.add("hide");*/
 
 
 	document.getElementById("btn2").classList.remove("activo");
 	document.getElementById("btn3").classList.remove("activo");
-	document.getElementById("btn4").classList.remove("activo");
-	document.getElementById("btn5").classList.remove("activo");
+	/*document.getElementById("btn4").classList.remove("activo");
+	document.getElementById("btn5").classList.remove("activo");*/
 
 
 
